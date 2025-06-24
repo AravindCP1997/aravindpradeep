@@ -17,8 +17,8 @@
 
 html{
     padding:10px;
-    padding-right:40px;
-    padding-left: 40px;
+    padding-right:5%;
+    padding-left: 5%;
 }
 
 .containers{
@@ -39,8 +39,8 @@ html{
 
 .solutions{
     display:flex;
-    flex-direction: row;
-    gap:3%;
+    flex-direction: column;
+    gap:10px;
     line-height: 1.5;
 }
 
