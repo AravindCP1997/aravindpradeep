@@ -37,6 +37,9 @@ html{
     width:min(100%,650px);
     float:right;
     background:white;
+    line-height: 1.5;
+    margin-top:15px;
+    margin-bottom:15px;
 }
 
 .containers{
@@ -47,22 +50,32 @@ html{
     padding-top:15px; 
 }
 
+.services-head{
+    color:var(--red);
+}
+
 .concerns{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-size:14px;
     color:var(--grey0);
     line-height: 1.5;
+    overflow-x: auto;
+    gap:15px;
 }
 
 .concern{
-    padding:10px;
+    padding:20px;
     border-radius:20px;
+    width:400px;
+    background:var(--grey2);
+    min-height:350px;
 }
 
 .concern h2{
     color:var(--blue2);
     padding-bottom:15px;
+    padding-top:40px;
 }
 
 .solutions{
@@ -73,6 +86,7 @@ html{
     padding:10px;
     border-radius: 20px;
     gap:20px;
+    justify-content: center;
 }
 
 .solutions div h3 {
@@ -87,6 +101,7 @@ html{
 .malayalam-header{
     border-top:1px solid var(--red);
     padding:10px;
+    text-align:center;
 }
 
 .malayalam-header p{
