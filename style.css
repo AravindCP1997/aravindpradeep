@@ -46,7 +46,7 @@ html{
 
 .header{
     text-align:right;
-    padding:10px;
+    padding-bottom:10px;
     border-bottom:1px solid var(--red);
     width:min(100%,650px);
     float:right;
