@@ -34,7 +34,7 @@ html{
     text-align:right;
     padding-bottom:10px;
     border-bottom:1px solid var(--red);
-    width:min(100%,650px);
+    width:min(100%,800px);
     float:right;
     background:white;
     line-height: 1.5;
@@ -77,7 +77,7 @@ html{
 .concern{
     padding:20px;
     border-radius:20px;
-    width:400px;
+    width:700px;
     background:var(--grey2);
     min-height:350px;
 }
@@ -86,6 +86,10 @@ html{
     color:var(--blue2);
     padding-bottom:15px;
     padding-top:40px;
+}
+
+.concern p{
+    margin:5px;
 }
 
 .solutions{
