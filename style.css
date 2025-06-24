@@ -21,6 +21,29 @@ html{
     padding-left: 40px;
 }
 
+.containers{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    gap:30px;
+    padding-top:40px; 
+}
+
+.concerns{
+    display: flex;
+    flex-direction: column;
+    font-size:14px;
+    color:var(--grey);
+    line-height: 1.5;
+}
+
+.solutions{
+    display:flex;
+    flex-direction: row;
+    gap:3%;
+    line-height: 1.5;
+}
+
 .header{
     text-align:right;
     padding:10px;
