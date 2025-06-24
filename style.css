@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'AP Lexend';
+    src: url(media/Lexend.woff);
+}
+
+:root{
+    --blue:rgb(64,82,106);
+    --red:rgb(238,0,0);
+    --grey:rgb(75,75,75);
+}
+
+* {
+    margin:0;
+    font-family: AP Lexend;
+    box-sizing: border-box;
+}
+
+html{
+    padding:10px;
+    padding-right:40px;
+    padding-left: 40px;
+}
+
+.header{
+    text-align:right;
+    padding:10px;
+    border-bottom:1px solid var(--red);
+    width:min(100%,650px);
+    float:right;
+}
+
+.firmname{
+    color:var(--red)
+}
+
+.firmtag{
+    color:var(--blue);
+}
