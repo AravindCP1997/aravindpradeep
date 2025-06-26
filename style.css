@@ -11,7 +11,7 @@
 :root{
     --blue:rgb(64,82,106);
     --blue2:rgb(16,72,98);
-    --red:rgb(238,0,0);
+    --red:rgb(192,0,0);
     --green:rgb(0,176,80);
     --grey0:rgb(75,75,75);
     --grey1:rgb(250,250,252);
@@ -87,6 +87,7 @@ html{
     color:var(--blue2);
     padding-bottom:15px;
     padding-top:40px;
+    width:300px;
 }
 
 .concern p{
