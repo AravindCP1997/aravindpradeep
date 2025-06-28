@@ -8,6 +8,11 @@
     src: url(media/Anek.woff);
 }
 
+@font-face {
+    font-family: 'Elegant Lady';
+    src: url(media/ElegantLady.woff);
+}
+
 :root{
     --blue:rgb(64,82,106);
     --blue2:rgb(16,72,98);
@@ -34,7 +39,7 @@ html{
 .header{
     text-align:right;
     padding-bottom:10px;
-    border-bottom:1px solid var(--red);
+    border-bottom:1px solid var(--grey0);
     width:min(100%,800px);
     float:right;
     background:white;
@@ -44,7 +49,7 @@ html{
 }
 
 .firmname{
-    color:var(--red);
+    color:var(--green);
 }
 
 .firmtag{
@@ -60,7 +65,7 @@ html{
 }
 
 .containers h2{
-    color:var(--red);
+    color:var(--green);
     padding-bottom:15px;
     padding-top:15px;
 }
@@ -116,7 +121,7 @@ html{
 }
 
 .malayalam-header{
-    border-top:1px solid var(--red);
+    border-top:1px solid var(--green);
     padding:10px;
     text-align:center;
 }
@@ -130,7 +135,8 @@ html{
 
 p{
     font-size:16px;
-    color:var(--grey0)
+    color:var(--grey0);
+    line-height:1.5;
 }
 
 @media only screen and (max-width:600px){
