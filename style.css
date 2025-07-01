@@ -14,7 +14,7 @@
 }
 
 :root{
-    --blue:rgb(64,82,106);
+    --blue:rgb(85,129,156);
     --blue2:rgb(16,72,98);
     --red:rgb(192,0,0);
     --green:rgb(0,176,80);
@@ -49,11 +49,11 @@ html{
 }
 
 .firmname{
-    color:var(--green);
+    color:var(--blue);
 }
 
 .firmtag{
-    color:var(--blue);
+    color:var(--grey0);
 }
 
 .containers{
@@ -65,7 +65,7 @@ html{
 }
 
 .containers h2{
-    color:var(--green);
+    color:var(--blue);
     padding-bottom:15px;
     padding-top:15px;
 }
