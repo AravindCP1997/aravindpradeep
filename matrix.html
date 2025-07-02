@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <title>Matrix</title>
     <style>
+
+        :root{
+            --blue-1:rgb(64,82,106);
+            --red:rgb(243,121,32);
+            --green:rgb(85,184,72);
+            --blue:rgb(20,88,134);
+            --gold:rgb(255,192,0);
+
+        }
         *{
             box-sizing: border-box;
             font-family:Noto Sans Malayalam;
@@ -19,9 +28,9 @@
         }
 
         .cell{
-            background:rgb(64,82,106);
+            background: var(--blue-1);
             border-radius: 50%;
-            color:white;
+            color:var(--blue-1);
             text-align:center;
             aspect-ratio: 1/1;
             width:70px;
@@ -30,27 +39,42 @@
             justify-content: center;
         }
 
-        #and{
+        #cell-2, #cell-3{
+            background:var(--gold);
+            color:var(--gold);
+        }
+
+        #cell-4{
+            background: var(--green);
+            color:var(--green);
+        }
+
+        #cell-8{
             grid-row: 2/ span 2;
             grid-column: 4/ span 1;
             aspect-ratio: unset;
             border-radius: 17.5px;
         }
+
+        #cell-8{
+            background: var(--green);
+            color:white;
+        }
     </style>
 </head>
 <body>
     <div class="logo-matrix">
-        <div class="cell"><p>അ</p></div>
-        <div class="cell"><p>ര</p></div>
-        <div class="cell"><p>വി</p></div>
-        <div class="cell"><p>ന്ദ്</p></div>
-        <div class="cell"><p>പ്ര</p></div>
-        <div class="cell"><p>ദീ</p></div>
-        <div class="cell"><p>പ്</p></div>
-        <div class="cell" id="and"><p>&</p></div>
-        <div class="cell"><p>ക</p></div>
-        <div class="cell"><p>മ്പ</p></div>
-        <div class="cell"><p>നി</p></div>
+        <div class="cell" id="cell-1"><p>അ</p></div>
+        <div class="cell" id="cell-2"><p>ര</p></div>
+        <div class="cell" id="cell-3"><p>വി</p></div>
+        <div class="cell" id="cell-4"><p>ന്ദ്</p></div>
+        <div class="cell" id="cell-5"><p>പ്ര</p></div>
+        <div class="cell" id="cell-6"><p>ദീ</p></div>
+        <div class="cell" id="cell-7"><p>പ്</p></div>
+        <div class="cell" id="cell-8"><p>&</p></div>
+        <div class="cell" id="cell-9"><p>ക</p></div>
+        <div class="cell" id="cell-10"><p>മ്പ</p></div>
+        <div class="cell" id="cell-11"><p>നി</p></div>
     </div>
     
 </body>
