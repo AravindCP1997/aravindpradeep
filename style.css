@@ -120,6 +120,11 @@ html{
     border-right:1px solid var(--blue);
 }
 
+.collabs-head{
+    color:var(--blue2);
+    padding-bottom:10px;
+}
+
 .malayalam-header{
     border-top:1px solid var(--green);
     padding:10px;
