@@ -82,17 +82,25 @@ html{
 
 .concern{
     padding:20px;
-    border-radius:20px;
-    width:700px;
-    background:var(--grey2);
-    min-height:350px;
+    border-radius:20px;;
+    background:var(--blue);
+    min-height:150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    cursor: pointer;
 }
 
 .concern h2{
-    color:var(--blue2);
-    padding-bottom:15px;
-    padding-top:40px;
-    width:300px;
+    color:white;
+    width:150px;
+    font-size:18px;
+}
+
+.concern:hover{
+    background:var(--blue2);
+    transition:0.5s ease-in-out;
 }
 
 .concern p{
