@@ -19,33 +19,33 @@
         :root{
             --blue-1:rgb(105,129,156);
             --red:rgb(238,0,0);
-            --green:rgb(85,184,72);
-            --blue:rgb(20,88,134);
+            --green:rgb(85,129,156);
+            --blue:rgb(64,82,106);
             --gold:rgb(255,192,0);
-            --grey:rgb(75,75,85);
+            --grey:rgb(75,75,85, 0.5);
             --lightgrey:rgb(240,240,243);
 
         }
         *{
             box-sizing: border-box;
-            font-family:Anek;
+            font-family:Noto Sans Malayalam;
         }
         .logo-matrix{
             margin: 50px;
             display: grid;
-            grid-template-columns: 70px 70px 70px 70px;
+            grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
             gap: 5px;
             row-gap: 5px;
-            font-size:20px;
+            font-size:18px;
             padding:10px;
             border-radius:20px;
             justify-content: center;
         }
 
-        .cell{
-            background: var(--blue-1);
+        .cell, .skip{
             border-radius: 5px;
-            color:white;
+            color:var(--blue);
+            background: var(--lightgrey);
             text-align:center;
             aspect-ratio: 1/1;
             width:70px;
@@ -55,33 +55,91 @@
             box-shadow: 2px 2px 2px var(--grey);
             cursor: pointer;
             transition: 0.5s ease-in-out;
+            font-weight:bold;
+        }
+
+        .skip{
+            box-shadow: none;
+            background: none;
         }
 
         .cell:hover{
             border-radius:50%;
+            background: var(--lightgrey);
         }
 
-        #cell-8, #cell-9, #cell-10, #cell-11, #cell-12{
-            background: var(--lightgrey);
+        #cell-1{
             color:var(--blue-1);
+        }
+
+        #cell-8{
+            color:var(--gold);
         }
     </style>
 </head>
 <body>
     <div class="logo-matrix">
+        <div class="skip"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="skip"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
         <div class="cell" id="cell-1"><p>അ</p></div>
         <div class="cell" id="cell-2"><p>ര</p></div>
         <div class="cell" id="cell-3"><p>വി</p></div>
         <div class="cell" id="cell-4"><p>ന്ദ്</p></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">P/562</div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
         <div class="cell" id="cell-5"><p>പ്ര</p></div>
         <div class="cell" id="cell-6"><p>ദീ</p></div>
         <div class="cell" id="cell-7"><p>പ്</p></div>
+        <div class="cell"></div>
         <div class="cell" id="cell-8"><p>&</p></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="skip"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
         <div class="cell" id="cell-9"><p>ക</p></div>
         <div class="cell" id="cell-10"><p>മ്പ</p></div>
         <div class="cell" id="cell-11"><p>നി</p></div>
-        <div class="cell" id="cell-12"><p></p></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="skip"></div>
+        <div class="skip"></div>
+        <div class="skip"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="skip"></div>
+        <div class="skip"></div>
+
     </div>
-    <h2 style="text-align: center; font-family:Lexend;color:var(--blue-1);font-weight: bold;">Work in Progress!</h2>
 </body>
 </html>
