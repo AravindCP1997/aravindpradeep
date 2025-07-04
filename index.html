@@ -2,8 +2,19 @@
 <html>
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Matrix</title>
     <style>
+
+        @font-face {
+            font-family: "Lexend";
+            src: url('media/Lexend.woff');
+        }
+
+        @font-face {
+            font-family: "Anek";
+            src: url("media/Anek.woff");
+        }
 
         :root{
             --blue-1:rgb(105,129,156);
@@ -11,13 +22,13 @@
             --green:rgb(85,184,72);
             --blue:rgb(20,88,134);
             --gold:rgb(255,192,0);
-            --grey:rgb(80,125,95);
+            --grey:rgb(75,75,85);
             --lightgrey:rgb(240,240,243);
 
         }
         *{
             box-sizing: border-box;
-            font-family:Noto Sans Malayalam;
+            font-family:Anek;
         }
         .logo-matrix{
             margin: 50px;
@@ -25,7 +36,7 @@
             grid-template-columns: 70px 70px 70px 70px;
             gap: 5px;
             row-gap: 5px;
-            font-size:22px;
+            font-size:20px;
             padding:10px;
             border-radius:20px;
             justify-content: center;
@@ -33,7 +44,7 @@
 
         .cell{
             background: var(--blue-1);
-            border-radius: 50%;
+            border-radius: 5px;
             color:white;
             text-align:center;
             aspect-ratio: 1/1;
@@ -41,15 +52,18 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            box-shadow: 2px 2px 2px var(--grey);
+            cursor: pointer;
+            transition: 0.5s ease-in-out;
+        }
+
+        .cell:hover{
+            border-radius:50%;
         }
 
         #cell-8, #cell-9, #cell-10, #cell-11, #cell-12{
             background: var(--lightgrey);
             color:var(--blue-1);
-        }
-
-        #cell-1{
-            border-radius: 50%;
         }
     </style>
 </head>
@@ -68,6 +82,6 @@
         <div class="cell" id="cell-11"><p>നി</p></div>
         <div class="cell" id="cell-12"><p></p></div>
     </div>
-    
+    <h2 style="text-align: center; font-family:Lexend;color:var(--blue-1);font-weight: bold;">Work in Progress!</h2>
 </body>
 </html>
