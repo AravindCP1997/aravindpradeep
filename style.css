@@ -70,6 +70,12 @@ html{
     background:var(--red);
     height:20px;
     width:50px;
+    transition:1s ease-in-out;
+    cursor: pointer;
+}
+
+.special-key:hover{
+    transform:rotate(180deg);
 }
 
 .sticky-head{
