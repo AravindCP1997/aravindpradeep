@@ -102,6 +102,7 @@ html{
 
 .english-title{
     font-weight:bold;
+    padding-top:10px;
 }
 
 .navigation{
@@ -130,6 +131,7 @@ html{
     display:grid;
     grid-template-columns: 49% 49%;
     gap:2%;
+    row-gap: 20px;
     padding-top:15px;
     padding-bottom:15px;
     color:var(--grey0);
@@ -207,3 +209,14 @@ html{
     background:var(--grey3);
     color:white;
 }
+
+@media only screen and (max-width:500px){
+    .navigation {
+        display:none;
+    }
+
+    .english-title{
+        font-size: 26px;
+    }
+}
+
