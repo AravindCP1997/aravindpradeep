@@ -91,6 +91,8 @@ html{
     background: var(--grey3);
     border-radius:25px;
     padding:20px;
+    padding-left:10px;
+    padding-right:10px;
     gap:15px;
     display: flex;
     flex-direction: column;
