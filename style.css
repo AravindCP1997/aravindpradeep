@@ -210,6 +210,15 @@ html{
     color:white;
 }
 
+#contact{
+    background: var(--grey3);
+    color:white;
+}
+
+#contact h2{
+    border-bottom:1px solid white;
+}
+
 @media only screen and (max-width:500px){
     .navigation {
         display:none;
@@ -217,6 +226,10 @@ html{
 
     .english-title{
         font-size: 26px;
+    }
+
+    #contact{
+        grid-column: 1/ span 2;
     }
 }
 
