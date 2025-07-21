@@ -1,0 +1,10 @@
+{
+    "lang":"en-us",
+    "name":"Aravind Pradeep & Co",
+    "short_name":"Aravind Pradeep & Co.",
+    "description":"Official website of Aravind Pradeep & Co., Chartered Accountants in Kochi.",
+    "start_url":"/",
+    "icons":[{
+        "src":"/media/favicon.png"
+    }]
+}
