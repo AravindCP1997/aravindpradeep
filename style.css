@@ -76,8 +76,7 @@ html{
 }
 
 .special-key:hover{
-    transform: rotate(90deg);
-    background:var(--gold);
+    opacity:0.2;
 }
 
 .sticky-head{
@@ -219,7 +218,7 @@ html{
     border-bottom:1px solid white;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:650px){
     .navigation {
         display:none;
     }
