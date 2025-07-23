@@ -29,8 +29,8 @@
 
 html{
     padding:10px;
-    padding-right:5%;
-    padding-left: 5%;
+    padding-right:15%;
+    padding-left: 15%;
     background: var(--grey2);
 }
 
@@ -70,19 +70,27 @@ html{
     right:50px;
     background:var(--red);
     height:20px;
-    width:50px;
+    width:32.38px;
     transition:0.5s ease-in-out;
     cursor: pointer;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color:var(--red);
+    font-weight: bold;
 }
 
 .special-key:hover{
-    opacity:0.2;
+    color:white;
+    transform: rotate(180deg);
 }
 
 .sticky-head{
     position:sticky;
-    top:-25px;
+    top:0;
     padding-bottom:15px;
+    padding-top:15px;
     background: var(--grey2);
 }
 
@@ -212,6 +220,7 @@ html{
 #contact{
     background: var(--grey3);
     color:white;
+    grid-column: 1/ span 2;
 }
 
 #contact h2{
@@ -227,8 +236,9 @@ html{
         font-size: 26px;
     }
 
-    #contact{
-        grid-column: 1/ span 2;
+    html{
+        padding-right:10%;
+        padding-left:10%;
     }
 }
 
